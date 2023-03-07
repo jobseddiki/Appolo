@@ -454,6 +454,7 @@ svg path {
     margin: 0;
     padding: 0;
     list-style: none;
+    cursor: pointer;
     background-color: #e3e3e3;
     border: 1px solid #111;
     border: 1px solid rgba(17, 17, 17, 0.15);
@@ -584,24 +585,22 @@ header .nav-toggle p {
     text-transform: uppercase;
 }
 
-header .nav-toggle span,
-header .nav-toggle span:before,
-header .nav-toggle span:after {
+header .nav-toggle span {
     content: "";
     position: relative;
     display: block;
-    width: 23px;
-    height: 2px;
-    background-color: #111;
+    width: 53px;
+    height: 34px;
+    border: solid 1px ;
+    text-align: center;
+    color: #100128;
+    background-color: #80bcdc;
+font-weight: bold;  
+  border-radius: 3px;
+    opacity: 0.7;
 }
 
-header .nav-toggle span:before {
-    bottom: 7px;
-}
 
-header .nav-toggle span:after {
-    top: 5px;
-}
 
 #hero .wrapper {
     position: relative;
@@ -1468,6 +1467,7 @@ header .nav-toggle span:after {
   }
 
   #menu-bar{ 
+    cursor: pointer;
     z-index: 100;
   }
   
